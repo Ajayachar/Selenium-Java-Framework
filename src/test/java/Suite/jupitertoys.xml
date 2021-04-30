@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Jupiter toys" verbose = "1" parallel="classes" thread-count="1">
+    
+    <parameter name="URL" value="https://jupiter.cloud.planittesting.com/"></parameter>
+
+    <test name="JP">
+        <classes>
+<!--            <class name="Test.TC001_Validate_Mandatoryfield_Contact"></class>-->
+<!--            <class name="Test.TC002_Validate_Contact_Creation"></class>-->
+<!--            <class name="Test.TC003_Validate_InvalidData_Contact"></class>-->
+            <class name="Test.TC004_Add_to_Cart_and_Verify"></class>
+        </classes>
+    </test>
+    
+</suite>
